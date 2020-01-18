@@ -1,0 +1,65 @@
+// 
+// general.scss
+//
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.policies-header {
+  border: 1px solid #000000;
+
+  li {
+    border-radius: 0 !important;
+    border: 1px solid #000000;
+  }
+}
+
+.policy-container {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #000000;
+}
+
+.policy {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  padding: 15px;
+  border-bottom: 1px solid #cccccc;
+
+  span {
+    display: table-cell;
+    text-align: left;
+  }
+}
+
+.benefit {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.policyBox {
+  overflow-x: hidden;
+  //position: absolute;
+}
+
+.policy-drawer {
+  //padding: 15px;
+  position: relative;
+  top: 70px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #bbbbbb;
+  min-height: 450px;
+  margin-left:auto;
+  left: 602px;
+  transition:left 1s;
+  overflow-x: hidden;
+}
